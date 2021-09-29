@@ -1,0 +1,67 @@
+/* main body part*/
+#main {
+
+    position: absolute;
+    background-color: darkred;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    right: 320px;
+    top: 100px;
+    
+}
+
+#b1{
+    position: absolute;
+    right: 700px;
+    bottom: 150px;
+    width: 100px;
+    height: 50px;
+}
+
+#p1{
+    background-color: lightslategray;
+    padding: 30px;
+    margin: 50px;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+
+#name {
+    position: absolute;
+    left: 360px;
+    bottom: 150px;
+    width: 400px;
+    height: 30px;  
+
+}
+
+#i1{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+
+}
+
+#pdf1 {
+    
+    position: absolute;
+    left: 650px;
+    top: 400px;
+}
+
+#link1{
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    left: 750px;
+    top: 400px;
+}
+
+#aboutme{
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    font-size: 20px;
+    
+
+}
