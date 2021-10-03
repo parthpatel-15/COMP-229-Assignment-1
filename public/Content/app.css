@@ -1,5 +1,9 @@
+/*   File name: app.css
+     Student name: Parth Patel
+     Student ID: 301207843
+     date : 28th sept 2021   */
 /* main body part*/
-#main {
+#main {       /* css modification for all pages heading welcome messages*/
 
     position: absolute;
     background-color: darkred;
@@ -10,7 +14,7 @@
     
 }
 
-#b1{
+#b1{                /* css modification for button in home page */
     display: flexbox;
     position:absolute;
     right: 700px;
@@ -19,7 +23,7 @@
     height: 50px;
 }
 
-#p1{
+#p1{            /* css modification for mission statement in home page */
     background-color: lightslategray;
     padding: 30px;
     margin: 50px;
@@ -28,6 +32,6 @@
     top: 200px;
 }
 
-body {
+body {              /* css modification for body of whole website */
       background-color:slategray;
 }
