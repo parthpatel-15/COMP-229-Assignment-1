@@ -11,9 +11,10 @@
 }
 
 #b1{
-    position: absolute;
+    display: flexbox;
+    position:absolute;
     right: 700px;
-    bottom: 150px;
+    top: 550px;
     width: 100px;
     height: 50px;
 }
