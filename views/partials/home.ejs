@@ -4,12 +4,17 @@
      date : 28th sept 2021-->
 <!-- *********************************   HOME PAGE  *********************************************** -->
   <%if (title == "Home"){ %>
-    <button id="b1" type="button"> Press! </button>             <!-- button for move on to aboutme page-->
-    <script type="text/javascript">
+    <!--<button id="b1" type="button"> Press! </button>             <!-- button for move on to aboutme page-->
+   <!-- <script type="text/javascript">
       document.getElementById("b1").onclick = function () {
           location.href = "http://localhost:3000/about";
       };
-    </script>
+    </script> -->
+    <button type="reset" id="b1" onclick="location.href='http://localhost:3000/about'">
+      click here
+    </button>
+  
+    
     <div id="p1">                                 <!--Mission Statement-->
       <h3 >
      ~ Hello, this is my website for assigment-1. This assignment is about create Expres portfolio site with five different pages-Home, Aboutme, Service, Project and Contact.
