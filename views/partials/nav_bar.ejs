@@ -1,10 +1,15 @@
+<!-- File name: nav_bar.ejs
+     Student name: Parth Patel
+     Student ID: 301207843
+     date : 28th sept 2021-->
+
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     
       <h1 class="navbar-brand ml-auto" href="/"> <i class="fas fa-user-astronaut"></i>  </h1>
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>                     <!--hump burger button -->
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -13,7 +18,7 @@
 
            
 
-          <li class="nav-item"></li>
+          <li class="nav-item"></li>      <!-- symbol for home page on nav bar-->                      
           <% if (title == "Home") { %>
             <a class="nav-link active" href="/home" >
             <% } else { %>
@@ -22,7 +27,7 @@
             <i class="fas fa-home"></i> home </a>
           </li>
           
-          <li class="nav-item">
+          <li class="nav-item">           <!-- symbol for aboutme page on nav bar-->
             <% if (title == "about") { %>
               <a class="nav-link active" href="/about">
               <% } else { %>
@@ -31,7 +36,7 @@
               <i class="far fa-address-card"></i> about me</a>
           </li>
 
-          <li class="nav-item">
+          <li class="nav-item">         <!-- symbol for service page on nav bar-->
             <% if (title == "service") { %>
               <a class="nav-link active" href="/service">
               <% } else { %>
@@ -40,7 +45,7 @@
               <i class="fas fa-tools"></i></i> service </a>
           </li>
 
-          <li class="nav-item">
+          <li class="nav-item">       <!-- symbol for project page on nav bar-->
             <% if (title == "project") { %>
               <a class="nav-link active" href="/project">
               <% } else { %>
@@ -49,7 +54,7 @@
               <i class="fas fa-cubes"></i> projects </a>
           </li>
 
-          <li id="c" class="nav-item">
+          <li id="c" class="nav-item">          <!-- symbol for contact page on nav bar-->
             <% if (title == "contact") { %>
               <a class="nav-link active" href="/contact">
               <% } else { %>
